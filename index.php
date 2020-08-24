@@ -40,6 +40,30 @@
 
     </div>
 
+    <div class="navbar navbar-default" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.php" class="navbar-brand home">
+                    <img src="images/logo.png" alt="computerfever logo" class="hidden-xs">
+                    <img src="images/logo-small.png" alt="computerfever logo" class="visible-xs">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <i class="fa fa-align-justify"></i>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                    <span class="sr-only">Toggle Search</span>
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navigation">
+                <div class="padding-nav">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
