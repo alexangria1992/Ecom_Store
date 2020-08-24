@@ -114,6 +114,32 @@
             <div class="col-md-3">
                 <?php include("includes/sidebar.php"); ?>
             </div>
+           <div class="col-md-9">
+           <div class="box">
+                    <h1>Shop</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '</p>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 center-responsive">
+                        <div class="product">
+                            <a href="details.php">
+                                <img src="admin_area/product_images/product.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">MARVEL Black Kids POLO T-Shirt</a></h3>
+                                <p class="price">$50</p>
+                                <p class="buttons">
+                                    <a href="details.php" class="btn btn-default">View Details</a>
+                                    <a href="details.php" class="btn btn-primary">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
         </div>
     </div>
 
