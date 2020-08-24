@@ -158,7 +158,129 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h1 class="text-center">MARVEL Black Kids POLO T-Shirt</h1>
+                            <div class="text-center">
+                                <form action="details.php" method="post" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-md-5 control-label">Product Quantity</label>
+                                        <div class="col-md-7">
+                                            <select name="product_qty" class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="form-group">
+                                        <label for="" class="col-md-5 control-label">Product Size</label>
+                                        <div class="col-md-7">
+                                            <select name="col-md-7" id="" class="form-control">
+                                                <option>Small</option>
+                                                <option>Medium</option>
+                                                <option>Large</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <p class="price">$50</p>
+                                    <p class="text-center buttons">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-shopping-cart"></i>Add to Cart
+                                        </button>
+                                    </p>
+                                </form>
+                           
+                           
+                        </div>
+
+                        <div class="row" id="thumbs">
+                            <div class="col-xs-4">
+                                <a href="" class="thumb">
+                                    <img src="admin_area/product_images/product.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <a href="" class="thumb">
+                                    <img src="admin_area/product_images/product2.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <a href="" class="thumb">
+                                    <img src="admin_area/product_images/product3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="box" id="details">
+                    <p>
+                        <h4>Product details</h4>
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                   
+                    <h4>Size</h4>
+                    <ul>
+                        <li>Small</li>
+                        <li>Medium</li>
+                        <li>Large</li>
+                    </ul>
+                    </p>
+                    <hr>
+                </div>
+                <div id="row" class="same-height-row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="box same-height headline">
+                            <h3 class="text-center">You also like these products</h3>
+                        </div>
+                    </div>
+                    <div class="center-responsive col-md-3 col-sm-6">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img src="admin_area/product_images/product.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">MARVEL Black Kids POLO T-Shirt</a></h3>
+                                <p style="text-align: center;" class="price">$50</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="center-responsive col-md-3 col-sm-6">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img src="admin_area/product_images/product.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">MARVEL Black Kids POLO T-Shirt</a></h3>
+                                <p style="text-align: center;" class="price">$50</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="center-responsive col-md-3 col-sm-6">
+                        <div class="product same-height">
+                            <a href="details.php">
+                                <img src="admin_area/product_images/product.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="text">
+                                <h3><a href="details.php">MARVEL Black Kids POLO T-Shirt</a></h3>
+                                <p style="text-align: center;" class="price">$50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
