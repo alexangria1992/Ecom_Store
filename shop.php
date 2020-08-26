@@ -210,15 +210,17 @@
 
                      echo "<li><a href='shop.php?page=$total_pages' >".'Last Page'."</a></li>";
 
-
-
-
-
                         }
                     }
                     ?>
                 </ul>
                 </center>
+
+        
+                    <?php
+                        getpcatpro();
+                    ?>
+                
            </div>
         </div>
     </div>
